@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [[ -f /flag.sh ]]; then
+	source /flag.sh
+fi
+
+su - glzjin -c "python /app/start.py"
+tail -F /dev/null
