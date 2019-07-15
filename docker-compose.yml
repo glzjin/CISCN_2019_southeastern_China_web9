@@ -4,7 +4,7 @@ services:
 
   web:
     build: .
-    image: ctftraining/ciscn_2019_southwestern_china_web9
+    image: ctftraining/ciscn_2019_southeastern_china_web9
     restart: always
     ports:
       - "127.0.0.1:8083:8000"
